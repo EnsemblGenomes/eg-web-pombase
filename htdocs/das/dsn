@@ -1,0 +1,225 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="/das/das.xsl"?>
+<!DOCTYPE DASDSN SYSTEM "http://www.biodas.org/dtd/dasdsn.dtd">
+<DASDSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_clavatus.CADRE.reference">Aspergillus_clavatus.CADRE.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus clavatus (&lt;i&gt;Aspergillus clavatus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 143 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_clavatus.CADRE.transcript">Aspergillus_clavatus.CADRE.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus clavatus (&lt;i&gt;Aspergillus clavatus&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_clavatus.CADRE.translation">Aspergillus_clavatus.CADRE.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus clavatus (&lt;i&gt;Aspergillus clavatus&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_flavus.CADRE.reference">Aspergillus_flavus.CADRE.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus flavus (&lt;i&gt;Aspergillus flavus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 2761 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_flavus.CADRE.transcript">Aspergillus_flavus.CADRE.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus flavus (&lt;i&gt;Aspergillus flavus&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_flavus.CADRE.translation">Aspergillus_flavus.CADRE.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus flavus (&lt;i&gt;Aspergillus flavus&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_fumigatus.CADRE.karyotype">Aspergillus_fumigatus.CADRE.karyotype</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) karyotype</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_fumigatus.CADRE.reference">Aspergillus_fumigatus.CADRE.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 9 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_fumigatus.CADRE.transcript">Aspergillus_fumigatus.CADRE.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_fumigatus.CADRE.translation">Aspergillus_fumigatus.CADRE.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_fumigatusa1163.CADRE.reference">Aspergillus_fumigatusa1163.CADRE.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus fumigatus A1163 (&lt;i&gt;Aspergillus fumigatusa1163&lt;/i&gt;) Reference server based on CADRE assembly. Contains 55 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_fumigatusa1163.CADRE.transcript">Aspergillus_fumigatusa1163.CADRE.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus fumigatus A1163 (&lt;i&gt;Aspergillus fumigatusa1163&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_fumigatusa1163.CADRE.translation">Aspergillus_fumigatusa1163.CADRE.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus fumigatus A1163 (&lt;i&gt;Aspergillus fumigatusa1163&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_nidulans.CADRE2.karyotype">Aspergillus_nidulans.CADRE2.karyotype</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) karyotype</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_nidulans.CADRE2.reference">Aspergillus_nidulans.CADRE2.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) Reference server based on CADRE2 assembly. Contains 40 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_nidulans.CADRE2.transcript">Aspergillus_nidulans.CADRE2.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_nidulans.CADRE2.translation">Aspergillus_nidulans.CADRE2.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_niger.CADRE.karyotype">Aspergillus_niger.CADRE.karyotype</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) karyotype</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_niger.CADRE.reference">Aspergillus_niger.CADRE.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) Reference server based on CADRE assembly. Contains 8 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_niger.CADRE.transcript">Aspergillus_niger.CADRE.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_niger.CADRE.translation">Aspergillus_niger.CADRE.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_oryzae.CADRE2.karyotype">Aspergillus_oryzae.CADRE2.karyotype</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) karyotype</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_oryzae.CADRE2.reference">Aspergillus_oryzae.CADRE2.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) Reference server based on CADRE2 assembly. Contains 11 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_oryzae.CADRE2.transcript">Aspergillus_oryzae.CADRE2.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_oryzae.CADRE2.translation">Aspergillus_oryzae.CADRE2.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_terreus.CADRE.reference">Aspergillus_terreus.CADRE.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Aspergillus terreus (&lt;i&gt;Aspergillus terreus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 26 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_terreus.CADRE.transcript">Aspergillus_terreus.CADRE.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus terreus (&lt;i&gt;Aspergillus terreus&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Aspergillus_terreus.CADRE.translation">Aspergillus_terreus.CADRE.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Aspergillus terreus (&lt;i&gt;Aspergillus terreus&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Multi.Ensembl-GeneID.spine">Multi.Ensembl-GeneID.spine</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk</MAPMASTER>
+    <DESCRIPTION>Gene Summary Annotation source </DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Neosartorya_fischeri.CADRE.reference">Neosartorya_fischeri.CADRE.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Neosartorya fischeri (&lt;i&gt;Neosartorya fischeri&lt;/i&gt;) Reference server based on CADRE assembly. Contains 976 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Neosartorya_fischeri.CADRE.transcript">Neosartorya_fischeri.CADRE.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Neosartorya fischeri (&lt;i&gt;Neosartorya fischeri&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Neosartorya_fischeri.CADRE.translation">Neosartorya_fischeri.CADRE.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Neosartorya fischeri (&lt;i&gt;Neosartorya fischeri&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Neurospora_crassa.EF1.reference">Neurospora_crassa.EF1.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.reference</MAPMASTER>
+    <DESCRIPTION>Neurospora crassa (&lt;i&gt;Neurospora crassa&lt;/i&gt;) Reference server based on EF1 assembly. Contains 251 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Neurospora_crassa.EF1.transcript">Neurospora_crassa.EF1.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Neurospora crassa (&lt;i&gt;Neurospora crassa&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Neurospora_crassa.EF1.translation">Neurospora_crassa.EF1.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Neurospora crassa (&lt;i&gt;Neurospora crassa&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Puccinia_graministritici.BROAD1.reference">Puccinia_graministritici.BROAD1.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.reference</MAPMASTER>
+    <DESCRIPTION>Puccinia graminis f sp tritici (&lt;i&gt;Puccinia graministritici&lt;/i&gt;) Reference server based on BROAD1 assembly. Contains 393 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Puccinia_graministritici.BROAD1.transcript">Puccinia_graministritici.BROAD1.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Puccinia graminis f sp tritici (&lt;i&gt;Puccinia graministritici&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Puccinia_graministritici.BROAD1.translation">Puccinia_graministritici.BROAD1.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Puccinia graminis f sp tritici (&lt;i&gt;Puccinia graministritici&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Saccharomyces_cerevisiae.EF2.reference">Saccharomyces_cerevisiae.EF2.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.reference</MAPMASTER>
+    <DESCRIPTION>Saccharomyces cerevisiae (&lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt;) Reference server based on EF2 assembly. Contains 18 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Saccharomyces_cerevisiae.EF2.transcript">Saccharomyces_cerevisiae.EF2.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Saccharomyces cerevisiae (&lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Saccharomyces_cerevisiae.EF2.translation">Saccharomyces_cerevisiae.EF2.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Saccharomyces cerevisiae (&lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Schizosaccharomyces_pombe.EF1.reference">Schizosaccharomyces_pombe.EF1.reference</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.reference</MAPMASTER>
+    <DESCRIPTION>Schizosaccharomyces pombe (&lt;i&gt;Schizosaccharomyces pombe&lt;/i&gt;) Reference server based on EF1 assembly. Contains 4 top level entries.</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Schizosaccharomyces_pombe.EF1.transcript">Schizosaccharomyces_pombe.EF1.transcript</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Schizosaccharomyces pombe (&lt;i&gt;Schizosaccharomyces pombe&lt;/i&gt;) transcript</DESCRIPTION>
+  </DSN>
+  <DSN href="http://treason.ebi.ac.uk/das/dsn">
+    <SOURCE id="Schizosaccharomyces_pombe.EF1.translation">Schizosaccharomyces_pombe.EF1.translation</SOURCE>
+    <MAPMASTER>http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.reference</MAPMASTER>
+    <DESCRIPTION>Annotation source for Schizosaccharomyces pombe (&lt;i&gt;Schizosaccharomyces pombe&lt;/i&gt;) translation</DESCRIPTION>
+  </DSN>
+</DASDSN>

@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="/das/das.xsl"?>
+<SOURCES> 
+  <SOURCE uri="EG_1_Aspergillus_clavatus" title="Aspergillus_clavatus.CADRE.reference" description="Aspergillus clavatus (&lt;i&gt;Aspergillus clavatus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 143 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_clavatus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS415" taxid="5057" source="Contig" authority="CADR" test_range="241:1,1687" version="E">CADR_E,Contig,Aspergillus clavatus</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_clavatus" title="Aspergillus_clavatus.CADRE.transcript" description="Annotation source for Aspergillus clavatus (&lt;i&gt;Aspergillus clavatus&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_clavatus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS415" taxid="5057" source="Contig" authority="CADR" test_range="241:1,1687" version="E">CADR_E,Contig,Aspergillus clavatus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_clavatus" title="Aspergillus_clavatus.CADRE.translation" description="Annotation source for Aspergillus clavatus (&lt;i&gt;Aspergillus clavatus&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_clavatus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS415" taxid="5057" source="Contig" authority="CADR" test_range="241:1,1687" version="E">CADR_E,Contig,Aspergillus clavatus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_clavatus.CADRE.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Aspergillus_flavus" title="Aspergillus_flavus.CADRE.reference" description="Aspergillus flavus (&lt;i&gt;Aspergillus flavus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 2761 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_flavus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS418" taxid="5059" source="Supercontig" authority="CADR" test_range="EQ963472:1,100000" version="E">CADR_E,Supercontig,Aspergillus flavus</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_flavus" title="Aspergillus_flavus.CADRE.transcript" description="Annotation source for Aspergillus flavus (&lt;i&gt;Aspergillus flavus&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_flavus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS418" taxid="5059" source="Supercontig" authority="CADR" test_range="EQ963472:1,100000" version="E">CADR_E,Supercontig,Aspergillus flavus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_flavus" title="Aspergillus_flavus.CADRE.translation" description="Annotation source for Aspergillus flavus (&lt;i&gt;Aspergillus flavus&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_flavus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS418" taxid="5059" source="Supercontig" authority="CADR" test_range="EQ963472:1,100000" version="E">CADR_E,Supercontig,Aspergillus flavus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_flavus.CADRE.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_2_Aspergillus_fumigatus" title="Aspergillus_fumigatus.CADRE.karyotype" description="Annotation source for Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) karyotype">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_2_Aspergillus_fumigatus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS421" taxid="5085" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus fumigatus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.karyotype/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.karyotype/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Aspergillus_fumigatus" title="Aspergillus_fumigatus.CADRE.reference" description="Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 9 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_fumigatus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS421" taxid="5085" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus fumigatus</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_fumigatus" title="Aspergillus_fumigatus.CADRE.transcript" description="Annotation source for Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_fumigatus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS421" taxid="5085" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus fumigatus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_fumigatus" title="Aspergillus_fumigatus.CADRE.translation" description="Annotation source for Aspergillus fumigatus Af293 (&lt;i&gt;Aspergillus fumigatus&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_fumigatus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS421" taxid="5085" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus fumigatus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatus.CADRE.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Aspergillus_fumigatusa1163" title="Aspergillus_fumigatusa1163.CADRE.reference" description="Aspergillus fumigatus A1163 (&lt;i&gt;Aspergillus fumigatusa1163&lt;/i&gt;) Reference server based on CADRE assembly. Contains 55 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_fumigatusa1163"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="scaffold" authority="CADR" version="E" taxid="451804" test_range="DS499594:1,100000">CADR_E,scaffold,Aspergillus fumigatusa1163</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_fumigatusa1163" title="Aspergillus_fumigatusa1163.CADRE.transcript" description="Annotation source for Aspergillus fumigatus A1163 (&lt;i&gt;Aspergillus fumigatusa1163&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_fumigatusa1163"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="scaffold" authority="CADR" version="E" taxid="451804" test_range="DS499594:1,100000">CADR_E,scaffold,Aspergillus fumigatusa1163</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_fumigatusa1163" title="Aspergillus_fumigatusa1163.CADRE.translation" description="Annotation source for Aspergillus fumigatus A1163 (&lt;i&gt;Aspergillus fumigatusa1163&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_fumigatusa1163"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="scaffold" authority="CADR" version="E" taxid="451804" test_range="DS499594:1,100000">CADR_E,scaffold,Aspergillus fumigatusa1163</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_fumigatusa1163.CADRE.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_2_Aspergillus_nidulans" title="Aspergillus_nidulans.CADRE2.karyotype" description="Annotation source for Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) karyotype">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_2_Aspergillus_nidulans"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="162425" test_range="20:1,14522">CADRE_2,supercontig,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="162425" test_range="III:1,100000">CADRE_2,chromosome,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="contig" authority="CADRE" version="2" taxid="162425" test_range="1.248:1,2259">CADRE_2,contig,Aspergillus nidulans</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.karyotype/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.karyotype/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Aspergillus_nidulans" title="Aspergillus_nidulans.CADRE2.reference" description="Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) Reference server based on CADRE2 assembly. Contains 40 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_nidulans"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="162425" test_range="20:1,14522">CADRE_2,supercontig,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="162425" test_range="III:1,100000">CADRE_2,chromosome,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="contig" authority="CADRE" version="2" taxid="162425" test_range="1.248:1,2259">CADRE_2,contig,Aspergillus nidulans</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_nidulans" title="Aspergillus_nidulans.CADRE2.transcript" description="Annotation source for Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_nidulans"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="162425" test_range="20:1,14522">CADRE_2,supercontig,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="162425" test_range="III:1,100000">CADRE_2,chromosome,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="contig" authority="CADRE" version="2" taxid="162425" test_range="1.248:1,2259">CADRE_2,contig,Aspergillus nidulans</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_nidulans" title="Aspergillus_nidulans.CADRE2.translation" description="Annotation source for Aspergillus nidulans (&lt;i&gt;Aspergillus nidulans&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_nidulans"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="162425" test_range="20:1,14522">CADRE_2,supercontig,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="162425" test_range="III:1,100000">CADRE_2,chromosome,Aspergillus nidulans</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="contig" authority="CADRE" version="2" taxid="162425" test_range="1.248:1,2259">CADRE_2,contig,Aspergillus nidulans</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_nidulans.CADRE2.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_2_Aspergillus_niger" title="Aspergillus_niger.CADRE.karyotype" description="Annotation source for Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) karyotype">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_2_Aspergillus_niger"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS424" taxid="5061" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus niger</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.karyotype/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.karyotype/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Aspergillus_niger" title="Aspergillus_niger.CADRE.reference" description="Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) Reference server based on CADRE assembly. Contains 8 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_niger"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS424" taxid="5061" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus niger</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_niger" title="Aspergillus_niger.CADRE.transcript" description="Annotation source for Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_niger"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS424" taxid="5061" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus niger</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_niger" title="Aspergillus_niger.CADRE.translation" description="Annotation source for Aspergillus niger (&lt;i&gt;Aspergillus niger&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_niger"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS424" taxid="5061" source="Chromosome" authority="CADR" test_range="I:1,100000" version="E">CADR_E,Chromosome,Aspergillus niger</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_niger.CADRE.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_2_Aspergillus_oryzae" title="Aspergillus_oryzae.CADRE2.karyotype" description="Annotation source for Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) karyotype">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_2_Aspergillus_oryzae"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="5062" test_range="47Q_0155:1,6938">CADRE_2,supercontig,Aspergillus oryzae</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="5062" test_range="I:1,100000">CADRE_2,chromosome,Aspergillus oryzae</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.karyotype/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.karyotype/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Aspergillus_oryzae" title="Aspergillus_oryzae.CADRE2.reference" description="Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) Reference server based on CADRE2 assembly. Contains 11 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_oryzae"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="5062" test_range="47Q_0155:1,6938">CADRE_2,supercontig,Aspergillus oryzae</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="5062" test_range="I:1,100000">CADRE_2,chromosome,Aspergillus oryzae</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_oryzae" title="Aspergillus_oryzae.CADRE2.transcript" description="Annotation source for Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_oryzae"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="5062" test_range="47Q_0155:1,6938">CADRE_2,supercontig,Aspergillus oryzae</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="5062" test_range="I:1,100000">CADRE_2,chromosome,Aspergillus oryzae</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_oryzae" title="Aspergillus_oryzae.CADRE2.translation" description="Annotation source for Aspergillus oryzae (&lt;i&gt;Aspergillus oryzae&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_oryzae"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="CADRE" version="2" taxid="5062" test_range="47Q_0155:1,6938">CADRE_2,supercontig,Aspergillus oryzae</COORDINATES>
+      <COORDINATES uri="NOT REGISTERED" source="chromosome" authority="CADRE" version="2" taxid="5062" test_range="I:1,100000">CADRE_2,chromosome,Aspergillus oryzae</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_oryzae.CADRE2.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Aspergillus_terreus" title="Aspergillus_terreus.CADRE.reference" description="Aspergillus terreus (&lt;i&gt;Aspergillus terreus&lt;/i&gt;) Reference server based on CADRE assembly. Contains 26 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Aspergillus_terreus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS430" taxid="33178" source="Supercontig" authority="CADR" test_range="1.1:1,100000" version="E">CADR_E,Supercontig,Aspergillus terreus</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Aspergillus_terreus" title="Aspergillus_terreus.CADRE.transcript" description="Annotation source for Aspergillus terreus (&lt;i&gt;Aspergillus terreus&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Aspergillus_terreus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS430" taxid="33178" source="Supercontig" authority="CADR" test_range="1.1:1,100000" version="E">CADR_E,Supercontig,Aspergillus terreus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Aspergillus_terreus" title="Aspergillus_terreus.CADRE.translation" description="Annotation source for Aspergillus terreus (&lt;i&gt;Aspergillus terreus&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Aspergillus_terreus"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS430" taxid="33178" source="Supercontig" authority="CADR" test_range="1.1:1,100000" version="E">CADR_E,Supercontig,Aspergillus terreus</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Aspergillus_terreus.CADRE.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_9_Multi" title="Multi.Ensembl-GeneID.spine" description="Gene Summary Annotation source ">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_9_Multi"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS492" source="Gene_ID" authority="Ensembl" test_range="YHR055C">Ensembl,Gene_ID</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Multi.Ensembl-GeneID.spine/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Multi.Ensembl-GeneID.spine/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Neosartorya_fischeri" title="Neosartorya_fischeri.CADRE.reference" description="Neosartorya fischeri (&lt;i&gt;Neosartorya fischeri&lt;/i&gt;) Reference server based on CADRE assembly. Contains 976 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Neosartorya_fischeri"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS433" taxid="36630" source="Contig" authority="CADR" test_range="8544:1,1270" version="E">CADR_E,Contig,Neosartorya fischeri</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Neosartorya_fischeri" title="Neosartorya_fischeri.CADRE.transcript" description="Annotation source for Neosartorya fischeri (&lt;i&gt;Neosartorya fischeri&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Neosartorya_fischeri"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS433" taxid="36630" source="Contig" authority="CADR" test_range="8544:1,1270" version="E">CADR_E,Contig,Neosartorya fischeri</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Neosartorya_fischeri" title="Neosartorya_fischeri.CADRE.translation" description="Annotation source for Neosartorya fischeri (&lt;i&gt;Neosartorya fischeri&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Neosartorya_fischeri"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS433" taxid="36630" source="Contig" authority="CADR" test_range="8544:1,1270" version="E">CADR_E,Contig,Neosartorya fischeri</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Neosartorya_fischeri.CADRE.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Neurospora_crassa" title="Neurospora_crassa.EF1.reference" description="Neurospora crassa (&lt;i&gt;Neurospora crassa&lt;/i&gt;) Reference server based on EF1 assembly. Contains 251 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Neurospora_crassa"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS436" taxid="5141" source="Supercontig" authority="EF" test_range="7.1:1,100000" version="1">EF_1,Supercontig,Neurospora crassa</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Neurospora_crassa" title="Neurospora_crassa.EF1.transcript" description="Annotation source for Neurospora crassa (&lt;i&gt;Neurospora crassa&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Neurospora_crassa"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS436" taxid="5141" source="Supercontig" authority="EF" test_range="7.1:1,100000" version="1">EF_1,Supercontig,Neurospora crassa</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Neurospora_crassa" title="Neurospora_crassa.EF1.translation" description="Annotation source for Neurospora crassa (&lt;i&gt;Neurospora crassa&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Neurospora_crassa"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS436" taxid="5141" source="Supercontig" authority="EF" test_range="7.1:1,100000" version="1">EF_1,Supercontig,Neurospora crassa</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Neurospora_crassa.EF1.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Puccinia_graministritici" title="Puccinia_graministritici.BROAD1.reference" description="Puccinia graminis f sp tritici (&lt;i&gt;Puccinia graministritici&lt;/i&gt;) Reference server based on BROAD1 assembly. Contains 393 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Puccinia_graministritici"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="BROAD" version="1" taxid="418459" test_range="DS989976:1,10729">BROAD_1,supercontig,Puccinia graministritici</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Puccinia_graministritici" title="Puccinia_graministritici.BROAD1.transcript" description="Annotation source for Puccinia graminis f sp tritici (&lt;i&gt;Puccinia graministritici&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Puccinia_graministritici"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="BROAD" version="1" taxid="418459" test_range="DS989976:1,10729">BROAD_1,supercontig,Puccinia graministritici</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Puccinia_graministritici" title="Puccinia_graministritici.BROAD1.translation" description="Annotation source for Puccinia graminis f sp tritici (&lt;i&gt;Puccinia graministritici&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Puccinia_graministritici"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="NOT REGISTERED" source="supercontig" authority="BROAD" version="1" taxid="418459" test_range="DS989976:1,10729">BROAD_1,supercontig,Puccinia graministritici</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Puccinia_graministritici.BROAD1.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Saccharomyces_cerevisiae" title="Saccharomyces_cerevisiae.EF2.reference" description="Saccharomyces cerevisiae (&lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt;) Reference server based on EF2 assembly. Contains 18 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Saccharomyces_cerevisiae"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS495" taxid="4932" source="Chromosome" authority="EF" test_range="Mito:1,85779" version="2">EF_2,Chromosome,Saccharomyces cerevisiae</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Saccharomyces_cerevisiae" title="Saccharomyces_cerevisiae.EF2.transcript" description="Annotation source for Saccharomyces cerevisiae (&lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Saccharomyces_cerevisiae"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS495" taxid="4932" source="Chromosome" authority="EF" test_range="Mito:1,85779" version="2">EF_2,Chromosome,Saccharomyces cerevisiae</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Saccharomyces_cerevisiae" title="Saccharomyces_cerevisiae.EF2.translation" description="Annotation source for Saccharomyces cerevisiae (&lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Saccharomyces_cerevisiae"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS495" taxid="4932" source="Chromosome" authority="EF" test_range="Mito:1,85779" version="2">EF_2,Chromosome,Saccharomyces cerevisiae</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Saccharomyces_cerevisiae.EF2.translation/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_1_Schizosaccharomyces_pombe" title="Schizosaccharomyces_pombe.EF1.reference" description="Schizosaccharomyces pombe (&lt;i&gt;Schizosaccharomyces pombe&lt;/i&gt;) Reference server based on EF1 assembly. Contains 4 top level entries.">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_1_Schizosaccharomyces_pombe"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS440" taxid="4896" source="Chromosome" authority="EF" test_range="I:1,100000" version="1">EF_1,Chromosome,Schizosaccharomyces pombe</COORDINATES>
+      <CAPABILITY  type="das1:entry_points"
+                   query_uri="http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.reference/entry_points" />
+      <CAPABILITY  type="das1:sequence"
+                   query_uri="http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.reference/sequence"     />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.reference/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_3_Schizosaccharomyces_pombe" title="Schizosaccharomyces_pombe.EF1.transcript" description="Annotation source for Schizosaccharomyces pombe (&lt;i&gt;Schizosaccharomyces pombe&lt;/i&gt;) transcript">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_3_Schizosaccharomyces_pombe"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS440" taxid="4896" source="Chromosome" authority="EF" test_range="I:1,100000" version="1">EF_1,Chromosome,Schizosaccharomyces pombe</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.transcript/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.transcript/features"     />
+    </VERSION>
+  </SOURCE> 
+  <SOURCE uri="EG_4_Schizosaccharomyces_pombe" title="Schizosaccharomyces_pombe.EF1.translation" description="Annotation source for Schizosaccharomyces pombe (&lt;i&gt;Schizosaccharomyces pombe&lt;/i&gt;) translation">
+    <MAINTAINER    email="helpdesk@ensemblgenomes.org" />
+    <VERSION       uri="EG_4_Schizosaccharomyces_pombe"
+                   created="2010-11-09">
+      <PROP name="label" value="Ensembl Genomes" />
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS440" taxid="4896" source="Chromosome" authority="EF" test_range="I:1,100000" version="1">EF_1,Chromosome,Schizosaccharomyces pombe</COORDINATES>
+      <CAPABILITY  type="das1:stylesheet"  
+                   query_uri="http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.translation/stylesheet"   />
+      <CAPABILITY  type="das1:features"
+                   query_uri="http://treason.ebi.ac.uk/das/Schizosaccharomyces_pombe.EF1.translation/features"     />
+    </VERSION>
+  </SOURCE>
+</SOURCES>
