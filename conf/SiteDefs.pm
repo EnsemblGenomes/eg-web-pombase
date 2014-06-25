@@ -18,7 +18,7 @@ sub update_conf {
     $SiteDefs::SITE_FTP= 'ftp://ftp.ensemblgenomes.org/pub/spombe';
 
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/perl',
+                                           $SiteDefs::ENSEMBL_WEBROOT.'/perl',
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-pombase/perl'
                                        );
