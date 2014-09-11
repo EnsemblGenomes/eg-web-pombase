@@ -1,8 +1,8 @@
-package Bio::EnsEMBL::GlyphSet::simple_legend;
+package EnsEMBL::Draw::GlyphSet::simple_legend;
 
 use strict;
 
-use base qw(Bio::EnsEMBL::GlyphSet);
+use base qw(EnsEMBL::Draw::GlyphSet);
 
 sub _init {
   my $self = shift;
