@@ -1258,7 +1258,7 @@ function initMethodConf(){
 //  for( var i=0; i<dbDnaSelect.length; i++ ){
 //    dbDnaLabels[dbDnaSelect[i].value]=dbDnaSelect[i].text;
 //  }
-    //dbDnaLabels[ "CDNA_ABINITIO" ]   = "Ab-initio cDNAs (Genscan/SNAP)";
+    dbDnaLabels[ "CDNA_ABINITIO" ]   = "Ab-initio cDNAs (Genscan/SNAP)";
     dbDnaLabels[ "CDNA_ALL" ]        = "cDNAs";
     dbDnaLabels[ "LATESTGP" ]        = "Genomic sequence";
     dbDnaLabels[ "LATESTGP_MASKED" ] = "Genomic sequence (hard masked)";
@@ -1280,7 +1280,7 @@ function initMethodConf(){
 //  for( var i=0; i<dbPeptideSelect.length; i++ ){
 //    dbPeptideLabels[dbPeptideSelect[i].value]=dbPeptideSelect[i].text;
 //  }
-    //dbPeptideLabels[ "PEP_ABINITIO" ] = "Ab-initio Proteins (Genscan/SNAP)";
+    dbPeptideLabels[ "PEP_ABINITIO" ] = "Ab-initio Proteins (Genscan/SNAP)";
     dbPeptideLabels[ "PEP_ALL" ]      = "Proteins";
   }
 }
