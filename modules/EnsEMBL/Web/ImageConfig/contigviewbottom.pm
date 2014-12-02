@@ -177,8 +177,8 @@ sub modify {
   my $pombase_menu_binding = $self->create_submenu('chromatin_binding', 'Chromatin binding');
   $gene_transcript_menu->after($pombase_menu_binding);
 
-  my $pombase_menu_binding = $self->create_submenu('intron_branch_point', 'Intron Branch Point');
-  $gene_transcript_menu->after($pombase_menu_binding);
+  my $pombase_menu_intron = $self->create_submenu('pb_intron_branch_point', 'Intron Branch Point');
+  $gene_transcript_menu->after($pombase_menu_intron);
   
   my $pombase_menu_polya   = $self->create_submenu('polya_sites', 'Polyadenylation sites');
   $gene_transcript_menu->after($pombase_menu_polya);
