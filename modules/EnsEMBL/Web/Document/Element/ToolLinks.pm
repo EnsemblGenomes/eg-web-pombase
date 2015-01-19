@@ -7,6 +7,7 @@ use strict;
 sub content {
   my $self    = shift;
   my $hub     = $self->hub;
+  my $sd    = $self->species_defs;
   
   my $pbquery = 'last_gene';
   if ($hub->type == 'Gene' or $hub->type == 'Transcript') {
