@@ -26,7 +26,7 @@ sub content {
 ###
   
   #push @links,   '<a class="constant" id="pombase_link" href="http://www.pombase.org/spombe/result/'.$pbquery.'"><img src="/i/Back2GeneOverview.png" alt="Back to Gene Overview"></a>';
-  push @links, '<FORM  METHOD="GET" ACTION="http://www.pombase.org/spombe/result/'.$pbquery.'"><INPUT TYPE="submit" VALUE="Gene Overview" /></FORM>';
+  push @links, '<FORM  METHOD="GET" ACTION="http://www.pombase.org/spombe/result/'.$pbquery.'"><INPUT TYPE="submit" VALUE="Back to Gene Page" /></FORM>';
   push @links, sprintf '<a class="constant" href="%s">BLAST</a>', $self->hub->url({'species' => '', 'type' => 'Tools', 'action' => 'Blast'}) if $sd->ENSEMBL_BLAST_ENABLED;
   push @links, qq{<a class="constant" href="http://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST</a>};
   push @links,   '<a class="constant" href="/tools.html">Tools</a>';
