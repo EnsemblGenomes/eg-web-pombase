@@ -82,15 +82,15 @@ sub render {
       $collection = $group . '_collection/'  if $group;
     }
     my $ftp_base_path_stub = "ftp://ftp.ebi.ac.uk/pub/databases/pombase/";
-    my @mysql;
-    foreach my $db( qw/core otherfeatures funcgen variation/){
-      my $db_config =  $species_defs->get_config($spp, 'databases')->{'DATABASE_' . uc($db)};
-      if($db_config){
-        my $title = sprintf($title{$db}, $sp_name);
-        my $db_name = $db_config->{NAME};
-        push(@mysql, qq{<a rel="external" title="$title" href="$ftp_base_path_stub/mysql/$db_name">MySQL($db)</a>});
-      }
-    }
+    #my @mysql;
+    #foreach my $db( qw/core otherfeatures funcgen variation/){
+    #  my $db_config =  $species_defs->get_config($spp, 'databases')->{'DATABASE_' . uc($db)};
+    #  if($db_config){
+    #    my $title = sprintf($title{$db}, $sp_name);
+    #    my $db_name = $db_config->{NAME};
+    #    push(@mysql, qq{<a rel="external" title="$title" href="$ftp_base_path_stub/mysql/$db_name">MySQL($db)</a>});
+    #  }
+    #}
         
     my $data = {
 species    => qq{<strong><i>$sp_name</i></strong>},
@@ -148,36 +148,36 @@ gff3       => qq{<a rel="external"  title="$title{'gff3'}" href="$ftp_base_path_
   $table->code = 'FTPtable::'.scalar(@rows);
   $table->{'options'}{'data_table_config'} = {iDisplayLength => 10};
 
-  my $pan_compara = $species_defs->get_config('MULTI', 'databases')->{DATABASE_COMPARA_PAN_ENSEMBL}->{NAME};
-  my $compara = $species_defs->get_config('MULTI', 'databases')->{DATABASE_COMPARA}->{NAME};
-  my $multi_sp = $g_units->{$genomic_unit};
-  my $multi_table    = EnsEMBL::Web::Document::Table->new(
-    [
-      {key=>'database',    sort=>'html',title=>'Database'},
-      {key => 'mysql',    sort=>'none',title => 'MySQL' },  
-      {key => 'tsv',      sort=>'none',title => 'TSV'   },    
-      {key => 'emf',      sort=>'none',title => 'EMF'   },    
-    ],
-    [
-      {
-      database => qq{<strong>Pan_compara Multi-species</strong>},
-      mysql   => qq{<a rel="external" title="$title{pan}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/mysql/$pan_compara/">MySQL</a>},
-      emf     => qq{<a rel="external" title="$title{emf}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/emf/ensembl-compara/homologies">EMF</a>},
-      tsv     => qq{<a rel="external" title="$title{tsv}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/tsv/ensembl-compara/">TSV</a>},
-      },
-      {
-      database => qq{<strong>$multi_sp Multi-species</strong>},
-      mysql   => sprintf(qq{<a rel="external" title="%s" href="ftp://ftp.ensemblgenomes.org/pub/$genomic_unit/release-$rel/mysql/$compara">MySQL</a>},sprintf($title{compara},ucfirst $genomic_unit)),
-      emf     => qq{<a rel="external" title="$title{emf}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/emf/ensembl-compara/homologies">EMF</a>},
-      tsv     => qq{<a rel="external" title="$title{tsv}" href="ftp://ftp.ensemblgenomes.org/pub/$genomic_unit/release-$rel/tsv/ensembl-compara">TSV</a>},
-      },
-      {
-      database => qq{<strong>Ensembl Mart</strong>},
-      mysql   => sprintf(qq{<a rel="external" title="%s" href="ftp://ftp.ensemblgenomes.org/pub/$genomic_unit/release-$rel/mysql/$genomic_unit\_mart_$rel">MySQL</a>},sprintf($title{mart},ucfirst $genomic_unit)),
-      }
-    ],
-    { data_table=>0 }
-  );
+  #my $pan_compara = $species_defs->get_config('MULTI', 'databases')->{DATABASE_COMPARA_PAN_ENSEMBL}->{NAME};
+  #my $compara = $species_defs->get_config('MULTI', 'databases')->{DATABASE_COMPARA}->{NAME};
+  #my $multi_sp = $g_units->{$genomic_unit};
+  #my $multi_table    = EnsEMBL::Web::Document::Table->new(
+  #  [
+  #    {key=>'database',    sort=>'html',title=>'Database'},
+  #    {key => 'mysql',    sort=>'none',title => 'MySQL' },  
+  #    {key => 'tsv',      sort=>'none',title => 'TSV'   },    
+  #    {key => 'emf',      sort=>'none',title => 'EMF'   },    
+  #  ],
+  #  [
+  #    {
+  #    database => qq{<strong>Pan_compara Multi-species</strong>},
+  #    mysql   => qq{<a rel="external" title="$title{pan}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/mysql/$pan_compara/">MySQL</a>},
+  #    emf     => qq{<a rel="external" title="$title{emf}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/emf/ensembl-compara/homologies">EMF</a>},
+  #    tsv     => qq{<a rel="external" title="$title{tsv}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/tsv/ensembl-compara/">TSV</a>},
+  #    },
+  #    {
+  #    database => qq{<strong>$multi_sp Multi-species</strong>},
+  #    mysql   => sprintf(qq{<a rel="external" title="%s" href="ftp://ftp.ensemblgenomes.org/pub/$genomic_unit/release-$rel/mysql/$compara">MySQL</a>},sprintf($title{compara},ucfirst $genomic_unit)),
+  #    emf     => qq{<a rel="external" title="$title{emf}" href="ftp://ftp.ensemblgenomes.org/pub/pan_ensembl/release-$rel/emf/ensembl-compara/homologies">EMF</a>},
+  #    tsv     => qq{<a rel="external" title="$title{tsv}" href="ftp://ftp.ensemblgenomes.org/pub/$genomic_unit/release-$rel/tsv/ensembl-compara">TSV</a>},
+  #    },
+  #    {
+  #    database => qq{<strong>Ensembl Mart</strong>},
+  #    mysql   => sprintf(qq{<a rel="external" title="%s" href="ftp://ftp.ensemblgenomes.org/pub/$genomic_unit/release-$rel/mysql/$genomic_unit\_mart_$rel">MySQL</a>},sprintf($title{mart},ucfirst $genomic_unit)),
+  #    }
+  #  ],
+  #  { data_table=>0 }
+  #);
   $table->add_option('class','no_col_toggle');
 
   #return sprintf(qq{<h3>Multi-species data</h3>%s<h3>Single species data</h3><div id="species_ftp_dl" class="js_panel"><input type="hidden" class="panel_type" value="Content"/>%s</div>},

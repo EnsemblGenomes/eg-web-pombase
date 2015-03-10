@@ -40,14 +40,12 @@ sub render {
   return qq{  
     <h2>Metadata</h2>
     <p>
-      Detailed metadata on the genomes provided by Ensembl Genomes is available from the FTP site in TSV, JSON and XML formats 
-      (<a href="ftp://ftp.ensemblgenomes.org/pub/README_metadata">format details</a>).
+      Detailed metadata on the genomes provided by PomBase is available from the FTP site in TSV format 
+      (<a href="ftp://ftp.ebi.ac.uk/pub/databases/pombase/README_metadata">format details</a>).
     </p>
     <p>
       $site:
       <a href="$prefix/species_pombase.txt">TSV</a> |
-      <a href="$prefix/species_metadata_pombase.json">JSON</a> |
-      <a href="$prefix/species_metadata_pombase.xml">XML</a>
     </p>
   };  
 }
