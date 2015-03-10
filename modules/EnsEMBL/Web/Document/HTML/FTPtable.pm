@@ -106,11 +106,11 @@ gff3       => qq{<a rel="external"  title="$title{'gff3'}" href="$ftp_base_path_
 #tsv        => qq{<a rel="external"  title="$title{'tsv'}" href="$ftp_base_path_stub/tsv/$sp_dir/">TSV</a>},
 #vep        => qq{<a rel="external"  title="$title{'vep'}" href="$ftp_base_path_stub/vep/">VEP</a>},
     };
-    my $db_hash = $hub->databases_species($spp, 'variation');
-    if ($db_hash->{variation}) {
-      $data->{'gvf'} = qq{<a rel="external" title="$title{'gvf'}" href="$ftp_base_path_stub/gvf/$sp_dir">GVF</a>};
-      $data->{'vcf'} = qq{<a rel="external" title="$title{'vcf'}" href="$ftp_base_path_stub/vcf/$sp_dir">VCF</a>};
-    }
+    #my $db_hash = $hub->databases_species($spp, 'variation');
+    #if ($db_hash->{variation}) {
+    #  $data->{'gvf'} = qq{<a rel="external" title="$title{'gvf'}" href="$ftp_base_path_stub/gvf/$sp_dir">GVF</a>};
+    #  $data->{'vcf'} = qq{<a rel="external" title="$title{'vcf'}" href="$ftp_base_path_stub/vcf/$sp_dir">VCF</a>};
+    #}
     push(@rows, $data);
   }
 
@@ -182,7 +182,7 @@ gff3       => qq{<a rel="external"  title="$title{'gff3'}" href="$ftp_base_path_
 
   #return sprintf(qq{<h3>Multi-species data</h3>%s<h3>Single species data</h3><div id="species_ftp_dl" class="js_panel"><input type="hidden" class="panel_type" value="Content"/>%s</div>},
   #  $multi_table->render,$table->render);
-  return sprintf(qq{Single species data</h3><div id="species_ftp_dl" class="js_panel"><input type="hidden" class="panel_type" value="Content"/>%s</div>},$table->render)
+  return sprintf(qq{<h3>Single species data</h3><div id="species_ftp_dl" class="js_panel"><input type="hidden" class="panel_type" value="Content"/>%s</div>},$table->render)
 }
 
 

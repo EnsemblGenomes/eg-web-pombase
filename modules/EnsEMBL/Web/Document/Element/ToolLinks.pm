@@ -30,7 +30,7 @@ sub content {
   push @links, sprintf '<a class="constant" href="%s">BLAST</a>', $self->hub->url({'species' => '', 'type' => 'Tools', 'action' => 'Blast'}) if $sd->ENSEMBL_BLAST_ENABLED;
   push @links, qq{<a class="constant" href="http://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST</a>};
   push @links,   '<a class="constant" href="/tools.html">Tools</a>';
-  push @links,   '<a class="constant" href="/downloads.html">Downloads</a>';
+  push @links,   '<a class="constant" href="http://www.pombase.org/downloads/datasets">Downloads</a>';
   push @links,   '<a class="constant" href="http://www.pombase.org/help">PomBase Help</a>';
   #push @links,   '<a class="constant" href="http://www.pombase.org/about/contacts/">Contact PomBase</a>';
   push @links,   '<a class="constant modal_link" href="/Help/Mirrors">Mirrors</a>' if keys %{$hub->species_defs->ENSEMBL_MIRRORS || {}};
