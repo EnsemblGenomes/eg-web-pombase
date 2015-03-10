@@ -181,7 +181,7 @@ gff3       => qq{<a rel="external"  title="$title{'gff3'}" href="$ftp_base_path_
   $table->add_option('class','no_col_toggle');
 
   #return sprintf(qq{<h3>Multi-species data</h3>%s<h3>Single species data</h3><div id="species_ftp_dl" class="js_panel"><input type="hidden" class="panel_type" value="Content"/>%s</div>},
-    $multi_table->render,$table->render);
+  #  $multi_table->render,$table->render);
   return sprintf(qq{Single species data</h3><div id="species_ftp_dl" class="js_panel"><input type="hidden" class="panel_type" value="Content"/>%s</div>},$table->render)
 }
 
