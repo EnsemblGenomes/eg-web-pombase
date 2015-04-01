@@ -63,11 +63,11 @@ sub current_index {
 sub current_unit {
   my $self = shift;
   
-  my $unit = (split /_/, $self->hub->function)[1];
-  my $index = $self->current_index;
-  my $hit_counts = $self->get_hit_counts;
-  $unit = (sort {$self->unit_sort($a, $b)} keys %{$hit_counts->{$index}->{by_unit}})[0] 
-    unless exists $hit_counts->{$index}->{by_unit}->{$unit};
+  #my $unit = (split /_/, $self->hub->function)[1];
+  #my $index = $self->current_index;
+  #my $hit_counts = $self->get_hit_counts;
+  #$unit = (sort {$self->unit_sort($a, $b)} keys %{$hit_counts->{$index}->{by_unit}})[0] 
+  #  unless exists $hit_counts->{$index}->{by_unit}->{$unit};
     
   return $unit || $SiteDefs::GENOMIC_UNIT;
 }
