@@ -14,6 +14,8 @@ sub update_conf {
     $SiteDefs::__species_aliases{ 'Schizosaccharomyces_octosporus' } = [qw(Schizosaccharomyces_octosporus)];
     
     $SiteDefs::SITE_NAME = 'PomBase';
+    $SiteDefs::GENOMIC_UNIT = 'pombase';
+    $SiteDefs::EBEYE_SEARCH_UNITS = [qw(pombase)];
     $SiteDefs::ENSEMBL_SITETYPE = 'PomBase';
     $SiteDefs::SITE_FTP= 'ftp://ftp.ensemblgenomes.org/pub/spombe';
 
