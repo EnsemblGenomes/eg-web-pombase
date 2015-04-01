@@ -155,6 +155,7 @@ sub get_hit_counts {
   foreach my $unit (keys %$domains_by_unit) {
     foreach my $domain (@{$domains_by_unit->{$unit}}) {
       (my $index = $domain->{domainId}) =~ s/^.*_([^_]+)$/$1/; # e.g. ensembl_gene > gene  
+      my $index = 'gene';	# No index in PomBase
       my $count = $domain->{numberOfResults};
       $hit_counts->{$index}->{by_unit}->{$unit} = $count if $count > 0;
     }
@@ -363,10 +364,10 @@ sub species_path {
   my $species_defs = $self->hub->species_defs;
   my $path         = $species_defs->species_path(ucfirst($species));
 
-  if ($path =~ /^\/$species/i and !$species_defs->valid_species(ucfirst $species) and $genomic_unit) {
-    # there was no direct mapping in current unit, use the genomic_unit to add the subdomin
-    $path = sprintf 'http://%s.ensembl.org/%s', $genomic_unit, $species;
-  } 
+  #if ($path =~ /^\/$species/i and !$species_defs->valid_species(ucfirst $species) and $genomic_unit) {
+  #  # there was no direct mapping in current unit, use the genomic_unit to add the subdomin
+  #  $path = sprintf 'http://%s.ensembl.org/%s', $genomic_unit, $species;
+  #} 
     
   # If species is in both Ensembl and EG, then $species_defs->species_path will 
   # return EG url by default - sometimes we know we want ensembl
