@@ -69,7 +69,7 @@ sub current_unit {
   #$unit = (sort {$self->unit_sort($a, $b)} keys %{$hit_counts->{$index}->{by_unit}})[0] 
   #  unless exists $hit_counts->{$index}->{by_unit}->{$unit};
     
-  return $unit || $SiteDefs::GENOMIC_UNIT;
+  return $SiteDefs::GENOMIC_UNIT;
 }
 
 sub current_sitename {
