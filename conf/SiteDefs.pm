@@ -18,6 +18,8 @@ sub update_conf {
     $SiteDefs::EBEYE_SEARCH_UNITS = [qw(pombase)];
     $SiteDefs::ENSEMBL_SITETYPE = 'PomBase';
     $SiteDefs::EBEYE_SITE_NAMES = {
+      ena     => 'ENA',
+      ensembl => 'Ensembl',
       pombase => 'PomBase',
     };
 

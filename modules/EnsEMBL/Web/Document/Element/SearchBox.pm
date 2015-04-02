@@ -26,8 +26,6 @@ sub search_options {
   my $sitename = $_[0]->species_defs->SITE_NAME;
 
   return [
-    ($_[0]->hub->species and $_[0]->hub->species !~ /^(common|multi)$/i) ? (
-    'ensemblthis'     => { 'label' => 'Search ' . $_[0]->species_defs->SPECIES_COMMON_NAME, 'icon' => 'search/ensembl.gif'  }) : (),
     'ensemblunit'     => { 'label' => "Search $sitename",       'icon' => 'search/O_16px.png'      },
   ];
 }
