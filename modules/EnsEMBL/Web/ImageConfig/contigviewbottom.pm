@@ -195,6 +195,9 @@ sub modify {
   my $pombase_menu_nucleosome   = $self->create_submenu('nucleosome', 'Nucleosome Positioning');
   $gene_transcript_menu->after($pombase_menu_nucleosome);
   
+  my $pombase_menu_polymerase   = $self->create_submenu('polymerase', 'Polymerase Usage');
+  $gene_transcript_menu->after($pombase_menu_polymerase);
+  
   $self->load_configured_bam;
   $self->load_configured_bed;
   $self->load_configured_bedgraph;
