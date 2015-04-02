@@ -17,7 +17,11 @@ sub update_conf {
     $SiteDefs::GENOMIC_UNIT = 'pombase';
     $SiteDefs::EBEYE_SEARCH_UNITS = [qw(pombase)];
     $SiteDefs::ENSEMBL_SITETYPE = 'PomBase';
-    $SiteDefs::SITE_FTP= 'ftp://ftp.ensemblgenomes.org/pub/spombe';
+    $SiteDefs::EBEYE_SITE_NAMES = {
+      pombase => 'PomBase',
+    };
+
+    $SiteDefs::SITE_FTP= 'ftp://ftp.ebi.ac.uk/pub/databases/pombase';
 
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
                                            $SiteDefs::ENSEMBL_WEBROOT.'/perl',

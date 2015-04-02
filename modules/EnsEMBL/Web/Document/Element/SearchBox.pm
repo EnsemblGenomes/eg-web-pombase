@@ -1,61 +1,37 @@
-# $Id: SearchBox.pm,v 1.1.1.1 2013-02-15 16:11:31 ek3 Exp $
+=head1 LICENSE
+
+Copyright [2009-2014] EMBL-European Bioinformatics Institute
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+=cut
 
 package EnsEMBL::Web::Document::Element::SearchBox;
 
 ### Generates small search box (used in top left corner of pages)
 
 use strict;
-                                                                                
-use base qw(EnsEMBL::Web::Document::Element);
-
-sub default_search_code { return $_[0]->{'_default'} ||= $_[0]->hub->get_cookie_value('ENSEMBL_SEARCH') || $_[0]->species_defs->ENSEMBL_DEFAULT_SEARCHCODE || 'ensembl'; }
 
 sub search_options {
-  return (
-    ## search_key         Dropdown label                  Input value
-    $_[0]->hub->species ?
-    [ 'ensembl',          'Ensembl search this species',  'Search ' . $_[0]->species_defs->SPECIES_COMMON_NAME ] : (),
-    #[ 'ensembl_all',      'Ensembl search all species',   'Search all species'                                 ],
-    #[ 'ensembl_genomes',  'Ensembl genomes search',       'Search Ensembl genomes'                             ],
-    #[ 'vega',             'Vega search',                  'Search vega'                                        ],
-    #[ 'ebi',              'EBI search',                   'Search EBI'                                         ],
-    #[ 'sanger',           'Sanger search',                'Search Sanger'                                      ]
-  );
-}
+  my $sitename = $_[0]->species_defs->SITE_NAME;
 
-sub content {
-  my $self           = shift;
-  my $img_url        = $self->img_url;
-  my $species        = $self->home_url . $self->hub->species;
-  my $search_url     = $species && $species ne '/' ? "$species/psychic" : '/common/psychic';
-  my @options        = $self->search_options;
-  my $search_code    = lc $self->default_search_code;
-     $search_code    = grep({ $_->[0] eq $search_code } @options) ? $search_code : $options[0][0];
-  my $search_options = join '', map qq(<div class="$_->[0]"><img src="${img_url}search/ensemblthis.gif" alt="$_->[1]"/>$_->[1]<input type="hidden" value="$_->[2]&hellip;" /></div>\n), @options;
-  my ($search_label) = map { $_->[0] eq $search_code ? "$_->[2]&hellip;" : () } @options;
-
-  return qq(
-    <div id="searchPanel" class="js_panel">
-      <input type="hidden" class="panel_type" value="SearchBox" />
-      <form action="$search_url">
-        <div class="search print_hide">
-          <div class="sites button">
-            <img class="search_image" src="${img_url}search/${search_code}.gif" alt="" />
-            <img src="${img_url}search/down.gif" style="width:7px" alt="" />
-            <input type="hidden" name="site" value="$search_code" />
-          </div>
-          <div>
-            <label class="hidden" for="se_q">Search terms</label>
-            <input class="query inactive" id="se_q" type="text" name="q" value="$search_label" />
-          </div>
-          <div class="button"><input type="image" src="${img_url}16/search.png" alt="Search&gt;&gt;" /></div>
-        </div>
-        <div class="site_menu hidden">
-          $search_options
-        </div>
-      </form>
-    </div>
-  );
+  return [
+    ($_[0]->hub->species and $_[0]->hub->species !~ /^(common|multi)$/i) ? (
+    'ensemblthis'     => { 'label' => 'Search ' . $_[0]->species_defs->SPECIES_COMMON_NAME, 'icon' => 'search/ensembl.gif'  }) : (),
+    'ensemblunit'     => { 'label' => "Search $sitename",       'icon' => 'search/O_16px.png'      },
+  ];
 }
 
 1;
+
+
