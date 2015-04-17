@@ -6,6 +6,7 @@ sub init {
   my $self = shift;
   $self->PREV::init;
   $self->set_defaults({
+    line_numbering => 'slice',
     region_change_display => 'yes',
     title_display => 'yes',
   });
