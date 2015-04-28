@@ -63,7 +63,7 @@ sub content {
 
 #EG: warning message is added to the top of the page to let the user know if an old GeneTree stable_ids is mapped to new GeneTree stable_ids
 # EG highlight tree nodes by annotation
-    my $hide                 = $hub->get_cookie_value('toggle_ht_table') eq 'open';
+    my $hide                 = 1;
     my @ontology_terms       = split /,/, $hub->param('ht');
     my @highlight_map        = @{$self->get_highlight_map($cdb, $tree->tree) || []};
     my $highlight_tags_row   = undef;
@@ -106,7 +106,7 @@ sub content {
 sub highlight_tags_table {
   my ($self,$highlight_map) = @_;
   my $hub = $self->hub;
-  my $hide = $hub->get_cookie_value('toggle_ht_table') eq 'open';
+  my $hide = 1;
   my @rows;
   my $selected = $hub->param('ht') || undef;
   for my $tag (@$highlight_map){
@@ -151,7 +151,7 @@ sub highlight_tags_table {
 sub highlight_types_selector {
   my ($self,$highlight_map) = @_;
   my $hub = $self->hub;
-  my $hide = $hub->get_cookie_value('toggle_ht_table') eq 'open';
+  my $hide = 1;
   my $selected_id = $hub->param('ht') || undef;
   my $selected_db_name = $hub->param('db_name') || undef;
   my %types = (); 
