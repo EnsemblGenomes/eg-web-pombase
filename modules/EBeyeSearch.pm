@@ -113,7 +113,7 @@ sub hit_count {
       $self->filter_species,
     );
     my $index = $self->current_index;
-    return $self->{_hit_count} = $self->rest->get_results_count("ensemblGenomes_$index", $query) || 0;
+    return $self->{_hit_count} = $self->rest->get_results_count("pombase", $query) || 0;
   
   } else {
   
@@ -137,7 +137,7 @@ sub get_hit_counts {
   # ensembl genomes gene
   my @units = $self->site =~ /^(ensemblthis|ensemblunit)$/ ? ($species_defs->GENOMIC_UNIT) : @{$SiteDefs::EBEYE_SEARCH_UNITS};
   foreach my $unit (@units) {
-    my $count = $self->rest->get_results_count('ensemblGenomes_gene', "$query AND genomic_unit:$unit");
+    my $count = $self->rest->get_results_count('pombase', "$query AND genomic_unit:$unit");
     $hit_counts->{gene}->{by_unit}->{$unit} = $count if $count > 0;
   }
 
@@ -221,7 +221,7 @@ sub get_gene_hits {
   my $index          = $self->current_index;
   my $unit           = $self->current_unit;
   my $filter_species = $self->filter_species;
-  my $domain         = $unit eq 'ensembl' ? "ensembl_$index" : "ensemblGenomes_$index";
+  my $domain         = $unit eq 'ensembl' ? "ensembl_$index" : "pombase";
   my $pager          = $self->pager;
   my @single_fields  = qw(id name description species featuretype location genomic_unit system_name database);
   my @multi_fields   = qw(transcript gene_synonym genetree);
