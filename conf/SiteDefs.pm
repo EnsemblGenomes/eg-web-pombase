@@ -5,6 +5,8 @@ sub update_conf {
     $SiteDefs::ENSEMBL_PORT           = 8024;
     $SiteDefs::ENSEMBL_SERVERNAME     = 'genomebrowser.pombase.org';
 
+    $SiteDefs::ENSEMBL_HELPDESK_EMAIL = 'helpdesk@pombase.org';
+
     $SiteDefs::ENSEMBL_PRIMARY_SPECIES  = 'Schizosaccharomyces_pombe';
     $SiteDefs::ENSEMBL_SECONDARY_SPECIES  = 'Schizosaccharomyces_pombe';
     $SiteDefs::__species_aliases{ 'Schizosaccharomyces_pombe' } = [qw(sp spac spbc spcc pombe schizosaccharomyces S_pombe)];
