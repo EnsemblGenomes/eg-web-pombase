@@ -123,7 +123,7 @@ sub content {
           </ul>
           <h2>Reference materials</h2>
           <ul>
-            <li><a href="http://www.hgvs.org/mutnomen/standards.html">HGVS Naming schema</a></li>
+            <li><a href="http://www.hgvs.org/mutnomen/standards.html">HGVS naming standards</a></li>
             <li><a href="/info/website/tutorials/Ensembl_variation_quick_reference_card.pdf">Variation Quick Reference card</a></li>
           </ul>
         </div>
