@@ -108,8 +108,6 @@ sub content {
           <ul>
             <li>Video: <a href="/Help/Movie?id=208">Browsing SNPs and CNVs in Ensembl</a></li>
             <li>Video: <a href="/Help/Movie?id=214">Clip: Genome Variation</a></li>
-            <li>Video: <a href="/Help/Movie?id=284">BioMart: Variation IDs to HGNC Symbols</a></li>
-            <li>Exercise: <a href="/info/website/tutorials/malaria_basic_genetics_exercises_Ensembl.pdf">Genomes and SNPs in Malaria</a></li>
           </ul>
           <h2>Analysing your data</h2>
           <div>$vep_icon</div>
