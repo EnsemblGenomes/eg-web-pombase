@@ -26,7 +26,7 @@ sub modify_tree {
   $self->delete_node('Compara_Alignments/Image');
   $self->delete_node('Marker');
   $self->delete_node('Synteny');
-  $self->delete_node('Variation');
+  #$self->delete_node('Variation');
 }
 
 1;
