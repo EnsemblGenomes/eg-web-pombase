@@ -20,9 +20,13 @@ package EnsEMBL::Web::Configuration::Location;
 
 use strict;
 use warnings;
+use previous qw(modify_tree);
 
 sub modify_tree {
   my $self = shift;
+
+  $self->PREV::modify_tree;
+
   $self->delete_node('Compara_Alignments/Image');
   $self->delete_node('Marker');
   $self->delete_node('Synteny');
