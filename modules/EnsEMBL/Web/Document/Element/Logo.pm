@@ -8,7 +8,7 @@ sub content {
 #  return sprintf( '%s<a href="%s">%s</a>%s%s',
 #    $self->e_logo, $url, $self->logo_img, $self->logo_print, $self->site_menu
 #  );
-  return sprintf( '%s<a href="http://www.pombase.org">%s</a>%s%s',
+  return sprintf( '%s<a href="http://legacy.pombase.org">%s</a>%s%s',
     $self->e_logo, $self->logo_img, $self->logo_print, $self->site_menu
   );
 }
